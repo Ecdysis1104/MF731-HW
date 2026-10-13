@@ -28,7 +28,6 @@ Yahoo may revise its historical data, so a fresh download can differ from the sn
 - EWMA: zero initial mean and covariance, decay 0.97, covariance residual uses the OLD mean.
 - MC: 100,000 draws, NumPy default_rng seed 731, shared vectors for the loss operators. Linear normal VaR uses the analytical formula.
 - Forecast horizon: one trading day. The assignment's May 25, 2026 date is a holiday (Memorial Day); the next US equity trading day is May 26. No calendar-day square-root scaling.
-- `solutions.tex` is standalone LaTeX. Compile with `pdflatex solutions.tex`.
 
 ## Results (USD)
 
